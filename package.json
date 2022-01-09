@@ -6,10 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "tsc": "tsc",
-    "build": "tsc && yarn unlink && yarn link && chmod +x build/index.js"
+    "build": "tsc ",
+    "prepareExeutables": "yarn unlink && yarn link && chmod +x build/index.js && chmod +x build/firestoreUpload.js",
+    "setupEnv": "yarn build && yarn prepareExeutables"
   },
   "bin": {
-    "firebase-admin-util": "build/index.js"
+    "firebase-admin-util": "build/index.js",
+    "fs-admin-firestore-upload": "build/firestoreUpload.js"
   },
   "repository": {
     "type": "git",
