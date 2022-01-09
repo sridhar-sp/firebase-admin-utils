@@ -1,0 +1,44 @@
+{
+  "cities": [
+    {
+      "id": 1,
+      "name": "Chennai"
+    },
+    {
+      "id": 2,
+      "name": "Coimbatore"
+    },
+    {
+      "id": 3,
+      "name": "Madurai"
+    },
+    {
+      "id": 4,
+      "name": "Tiruchirappalli"
+    },
+    {
+      "id": 5,
+      "name": "Tirunelveli"
+    },
+    {
+      "id": 6,
+      "name": "Thanjavur"
+    },
+    {
+      "id": 7,
+      "name": "Thanjavur"
+    },
+    {
+      "id": 8,
+      "name": "Thanjavur"
+    },
+    {
+      "id": 9,
+      "name": "Thanjavur"
+    },
+    {
+      "id": 10,
+      "name": "Kanyakumari"
+    }
+  ]
+}
