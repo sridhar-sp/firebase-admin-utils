@@ -27,6 +27,8 @@
   },
   "dependencies": {
     "@types/commander": "^2.12.2",
-    "commander": "^8.3.0"
+    "@types/csvtojson": "^2.0.0",
+    "commander": "^8.3.0",
+    "csvtojson": "^2.0.10"
   }
 }
